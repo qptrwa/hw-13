@@ -1,0 +1,5 @@
+---
+- name: Play_main
+  hosts: servers
+
+- include: roles/main.yml

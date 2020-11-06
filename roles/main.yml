@@ -1,0 +1,7 @@
+---
+- name: Play_again
+  hosts: servers
+
+  tasks:
+ 
+- include: vim_zip_install.yml
