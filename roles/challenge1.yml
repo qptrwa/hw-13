@@ -1,0 +1,8 @@
+---
+
+- hosts: servers 
+  tasks:
+  - name: Creating file on servers
+    copy:
+      dest: /tmp/test1.txt
+      content: Hello world!
